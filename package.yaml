@@ -19,8 +19,8 @@ executables:
     main: main.hs
     source-dirs: ./
 
-tests:
-  simformat-doctests:
-    main: doctests.hs
-    dependencies:
-    - doctest
+# tests:
+#   simformat-doctests:
+#     main: doctests.hs
+#     dependencies:
+#     - doctest

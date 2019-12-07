@@ -1,0 +1,25 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f276d406ecb8f177cd9770459c6dc387462f094638e83509c235875b5da8e4b0
+
+name:           simformat
+version:        0.0.0
+build-type:     Simple
+
+executable simformat
+  main-is: main.hs
+  other-modules:
+      Paths_simformat
+  hs-source-dirs:
+      ./
+  default-extensions: RecordWildCards
+  ghc-options: -Wall -Werror -fwarn-tabs -O2
+  build-depends:
+      base
+    , containers
+    , megaparsec >=6.0.0
+  default-language: Haskell2010
